@@ -1,0 +1,50 @@
+{
+  "name": "interview-prep-mcp",
+  "version": "0.1.0",
+  "description": "MCP server with 200 AI engineer and investment banking interview questions and model answers. Search, practice and self-check from any MCP client.",
+  "mcpName": "io.github.johnnnmai/interview-prep-mcp",
+  "type": "module",
+  "bin": {
+    "interview-prep-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "data/questions.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node index.js",
+    "build:data": "node scripts/build-data.mjs",
+    "test": "node test/client-test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "interview",
+    "interview-prep",
+    "ai-engineer",
+    "llm",
+    "investment-banking",
+    "career"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnnnmai/interview-prep-mcp.git"
+  },
+  "homepage": "https://github.com/Johnnnmai/interview-prep-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/Johnnnmai/interview-prep-mcp/issues"
+  },
+  "author": "Valenx Press <press@valenx.org>",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.6.7"
+  }
+}

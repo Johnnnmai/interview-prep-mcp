@@ -1,0 +1,25 @@
+{
+  "manifest_version": "0.2",
+  "name": "interview-prep-mcp",
+  "display_name": "Interview Prep",
+  "version": "0.1.0",
+  "description": "200 AI engineer and investment banking interview questions with model answers.",
+  "long_description": "Search, browse and practice 200 interview questions (AI engineer and investment banking) with model answers, likely follow-ups and free self-check links. Offline, read-only, no account.",
+  "author": { "name": "Valenx Press", "email": "press@valenx.org" },
+  "repository": { "type": "git", "url": "https://github.com/Johnnnmai/interview-prep-mcp" },
+  "homepage": "https://github.com/Johnnnmai/interview-prep-mcp",
+  "license": "MIT",
+  "keywords": ["interview", "career", "ai-engineer", "investment-banking"],
+  "server": {
+    "type": "node",
+    "entry_point": "index.js",
+    "mcp_config": { "command": "node", "args": ["${__dirname}/index.js"] }
+  },
+  "tools": [
+    { "name": "search_questions", "description": "Search interview questions by keyword, track, topic or level." },
+    { "name": "get_question", "description": "Get one question with model answer and follow-up." },
+    { "name": "random_question", "description": "Random practice question with the answer hidden." },
+    { "name": "list_topics", "description": "List tracks and topics." }
+  ],
+  "compatibility": { "platforms": ["darwin", "win32", "linux"], "runtimes": { "node": ">=18.0.0" } }
+}

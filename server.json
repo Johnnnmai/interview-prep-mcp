@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.johnnnmai/interview-prep-mcp",
+  "description": "200 AI engineer and investment banking interview questions with model answers. Search and practice.",
+  "repository": { "url": "https://github.com/Johnnnmai/interview-prep-mcp", "source": "github" },
+  "version": "0.1.0",
+  "packages": [
+    { "registryType": "npm", "identifier": "interview-prep-mcp", "version": "0.1.0", "transport": { "type": "stdio" } }
+  ]
+}
