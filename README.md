@@ -1,5 +1,7 @@
 # interview-prep-mcp
 
+> **This repo is archived.** Its Investment Banking questions now ship in [ai-interview-questions-mcp](https://github.com/Johnnnmai/ai-interview-questions-mcp) (v1.1.0 and later), which has all 200 questions, the same tools, and a Streamable HTTP mode. Use that package instead.
+
 An MCP server with **200 interview questions and model answers** for two tracks:
 
 - **AI engineer** (100): LLM fundamentals, prompting, RAG, agents and tool use, fine-tuning, evaluation, production, system design, coding
